@@ -1,34 +1,17 @@
-# personal-tooling
+# Personal tooling for finance calculate
 
-An Electron application with React and TypeScript
+This personal tooling is use to show you that:
 
-## Recommended IDE Setup
+- Calculate money need for retirement
+- Calculate money need for buying things
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## User information
 
-## Project Setup
-
-### Install
-
-```bash
-$ pnpm install
-```
-
-### Development
-
-```bash
-$ pnpm dev
-```
-
-### Build
-
-```bash
-# For windows
-$ pnpm build:win
-
-# For macOS
-$ pnpm build:mac
-
-# For Linux
-$ pnpm build:linux
-```
+- User should input the following information:
+  - Current age
+  - Retirement age
+  - Monthly saving
+  - Current saving
+  - Expected annual return
+  - Expected annual inflation rate
+  - Expected annual expense after retirement
